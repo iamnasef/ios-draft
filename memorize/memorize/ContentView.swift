@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View{
     var body: some View {
-        VStack{
+        VStack (alignment: .trailing, spacing: 100){
             Text("Hello, World").foregroundColor(.black)
             Test()
+            imageApple()
             Image(systemName: "globe").foregroundColor(.green)
         }.padding()
         
@@ -21,6 +22,12 @@ struct ContentView: View{
 struct Test:View {
     var body: some View {
         Text("Nasef").foregroundColor(.orange).padding()
+    }
+}
+
+struct imageApple : View {
+    var body: some View {
+        Image("apple").foregroundColor(.brown).padding()
     }
 }
 
