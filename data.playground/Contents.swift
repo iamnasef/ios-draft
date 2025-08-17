@@ -21,3 +21,10 @@ let person = [
 "job":"tech"
 ]
 print(person["name",default: "Unknown"])
+
+var num = Set([4,6,1,9,5])
+num.sorted()
+num.insert(20)
+print(num)
+num.sorted()
+
