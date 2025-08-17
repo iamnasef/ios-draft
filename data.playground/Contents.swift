@@ -28,3 +28,10 @@ num.insert(20)
 print(num)
 num.sorted()
 
+enum Days {
+    case Saturday,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday
+}
+
+
+var day=Days.Friday
+print(day)
